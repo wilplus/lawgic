@@ -1,0 +1,86 @@
+body {
+  font-family: sans-serif;
+  background: white;
+  color: #1f2937;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.header {
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.header p {
+  font-size: 1.25rem;
+  color: #6b7280;
+  margin-bottom: 1.5rem;
+}
+
+.cta {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.cta input {
+  padding: 0.5rem 1rem;
+  width: 250px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+}
+
+.cta button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.card {
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  padding: 2rem;
+  text-align: center;
+}
+
+.card .icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  color: #6b7280;
+}
+
+.footer {
+  text-align: center;
+  color: #9ca3af;
+  font-size: 0.875rem;
+  margin-top: 4rem;
+}
